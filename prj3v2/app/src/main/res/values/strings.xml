@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">prj3v2</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="new_account">new account</string>
+    <string name="name">name</string>
+    <string name="birthday">birthday</string>
+    <string name="bio">bio</string>
+    <string name="finish">finish</string>
+    <string name="logout">logout</string>
+    <string name="users_page">users page</string>
+    <string name="feed">feed</string>
+    <string name="change_if_favorite">Change if favorite</string>
+    <string name="post">post</string>
+    <string name="take_photo">take photo</string>
+</resources>

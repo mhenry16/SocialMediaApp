@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="prj3v2.csc214.prj3v2.NewAccountActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/takePhotoButtonCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_photo"
+        android:onClick="takeAPhoto"/>
+
+    <ImageView
+        android:id="@+id/imageUserCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_profile" />
+
+    <TextView
+        android:id="@+id/nameTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+
+    <EditText
+        android:id="@+id/nameEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/emailTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"/>
+
+    <EditText
+        android:id="@+id/emailEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/passwordTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"/>
+
+    <EditText
+        android:id="@+id/passwordEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/homeTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hometown"/>
+
+    <EditText
+        android:id="@+id/homeEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/birthTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"/>
+
+    <EditText
+        android:id="@+id/birthEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/bioTextViewCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bio"/>
+
+    <EditText
+        android:id="@+id/bioEditTextCreation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/finishButtonCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="finishButtonClick"
+        android:text="@string/finish"/>
+
+</LinearLayout>
